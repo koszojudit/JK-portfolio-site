@@ -1,0 +1,282 @@
+/*  GLOBAL STYLES  */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #4A4A4A;
+}
+
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+ }
+
+ div {
+   display: inline-block;
+   flex-wrap: wrap;
+  }
+
+/* HEADER STYLES */
+
+header {
+  display: flex;
+  width: 100%;
+  padding: 1em;
+}
+
+.logo {
+  flex: 1;
+  max-width: 4em;
+  max-height: 4em;
+  margin: 0 0.25em 0 0;
+}
+
+.header_text {
+  flex: 1;
+  text-align: right;
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  margin: 0.25em 0;
+}
+
+.name {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  font-family: American Typewriter, sans-serif;
+  font-size: 1.5em;
+  color: #A92B76;
+}
+
+.job {
+  position: relative;
+  font-size: 1em;
+}
+
+/* HERO IMAGE STYLES */
+
+.hero_image {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  background-color: #F8F8F8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+
+/* OVERLAY */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A92B76;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.hero_text {
+  color: white;
+  font-size: 2em;
+  font-family: American Typewriter, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ABOUT SECTION STYLES */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+
+.about_text {
+  background-color: #F8F8F8;
+  padding: 1.5em;
+  max-width: 768 px;
+  text-align: center;
+  margin: 0;
+}
+
+/* FEATURED WORK SECTION STYLES */
+
+.featured_work {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    margin: 1%;
+    width: 100%;
+    max-width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    font-family: American Typewriter, sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: #6E6E6E;
+}
+
+.section_title {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project_card {
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid;
+  border-color: #DCDCDC;
+  border-radius: 0.5em;
+  max-width: 300px;
+  margin: 0 0.75em 1.5em 0.75em;
+}
+
+h3 {
+  position: relative;
+  text-align: left;
+  font-weight: 400;
+  padding: 0.25em 0.5em;
+  margin: 0;
+  width: 100%;
+  font-size: 1.1em;
+  font-family: American Typewriter, sans-serif;
+  color: #A92B76;
+}
+
+.project_tags {
+  font-size: 0.8em;
+  font-family: American Typewriter, sans-serif;
+  color: #6E6E6E;
+  text-align: left;
+  font-weight: 400;
+  padding: 0.5em 0.5em;
+  margin: 0;
+}
+
+.project_description {
+  font-size: 0.8em;
+  text-align: left;
+  padding: 0 0.5em 0.5em;
+}
+
+.project_icons {
+  width: 100%;
+  text-align: right;
+}
+
+.icon_project {
+  max-width: 2.5em;
+  max-height: 2.5em;
+  margin: 0 0.5em 0 0.25em;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+  text-align: center;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon_contact {
+  max-width: 2.5em;
+  max-height: 2.5em;
+  margin: 0 0.25em 0;
+}
+
+.copyright {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+  font-size: 0.75em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 330px) {
+  .logo {
+    max-width: 5em;
+    max-height: 5em;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 650px) {
+  .project_card {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    header {
+      padding: 1em 0 1em;
+    }
+}

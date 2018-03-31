@@ -59,7 +59,7 @@ header {
   position: relative;
   text-align: right;
   width: 100%;
-  font-family: American Typewriter, sans-serif;
+  font-family: "American Typewriter", sans-serif;
   font-size: 1.5em;
   color: #A92B76;
 }
@@ -117,12 +117,12 @@ header {
 .hero_text {
   color: white;
   font-size: 2em;
-  font-family: American Typewriter, sans-serif;
+  font-family: "American Typewriter", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ header {
 .about_text {
   background-color: #F8F8F8;
   padding: 1.5em;
-  max-width: 768 px;
+  max-width: 768px;
   text-align: center;
   margin: 0;
 }
@@ -161,7 +161,7 @@ h2 {
     max-width: 100%;
     padding: 1em;
     font-size: 1em;
-    font-family: American Typewriter, sans-serif;
+    font-family: "American Typewriter", sans-serif;
     font-weight: 400;
     font-size: 1.6em;
     color: #6E6E6E;
@@ -192,13 +192,13 @@ h3 {
   margin: 0;
   width: 100%;
   font-size: 1.1em;
-  font-family: American Typewriter, sans-serif;
+  font-family: "American Typewriter", sans-serif;
   color: #A92B76;
 }
 
 .project_tags {
   font-size: 0.8em;
-  font-family: American Typewriter, sans-serif;
+  font-family: "American Typewriter", sans-serif;
   color: #6E6E6E;
   text-align: left;
   font-weight: 400;
@@ -270,7 +270,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1032px) {
     body {
         width: 1000px;
         margin: 0 auto;

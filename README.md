@@ -1,14 +1,12 @@
 # JK-portfolio-site
-Udacity project on my coding portfolio
 
-This is my very first online portfolio webite.
-It has been created within Udacity's Front-End Nanodegree Programme.
+This is my very first online portfolio webite, which has been created as a project of Udacity's Front-End Nanodegree Programme.
 
-We were provided with a design mockup which we could customize and personalize, and make decisions in terms of the site's responsive behaviour.
+We were provided with a design mockup which we could customize and personalize, and make decisions in terms of the site's responsive behavior.
 
 ## What projects are included?
 
-This site is a part of my professiobnal portfolio, showing my coding skills.
+This site is a part of my professional portfolio, showing my coding skills.
 
 ## What projects are NOT included?
 

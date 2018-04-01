@@ -1,38 +1,38 @@
 /*  GLOBAL STYLES  */
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: #4A4A4A;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: #4a4a4a;
 }
 
-
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: auto;
-    margin: 0;
- }
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
 
- div {
-   display: inline-block;
-   flex-wrap: wrap;
-  }
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* HEADER STYLES */
 
 header {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 1em;
 }
@@ -44,50 +44,49 @@ header {
   margin: 0 0.25em 0 0;
 }
 
-.header_text {
+.headerText {
   flex: 1;
   text-align: right;
 }
 
 .title {
-  position: relative;
+  justify-content: flex-end;
   width: 100%;
   margin: 0.25em 0;
 }
 
+.subtitle {
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+}
+
 .name {
-  position: relative;
-  text-align: right;
   width: 100%;
   font-family: "American Typewriter", sans-serif;
   font-size: 1.5em;
-  color: #A92B76;
+  color: #a92b76;
 }
 
 .job {
-  position: relative;
   font-size: 1em;
 }
 
 /* HERO IMAGE STYLES */
 
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+}
+
 .hero_image {
   width: 100%;
   height: 100%;
   margin: 0;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.hero {
-  background-color: #F8F8F8;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: #F8F8F8;
 }
 
 /* OVERLAY */
@@ -107,14 +106,14 @@ header {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #A92B76;
+  background-color: #a92b76;
 }
 
 .container:hover .overlay {
   opacity: 0.7;
 }
 
-.hero_text {
+.heroText {
   color: white;
   font-size: 2em;
   font-family: "American Typewriter", sans-serif;
@@ -133,11 +132,11 @@ header {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
-.about_text {
-  background-color: #F8F8F8;
+.aboutText {
+  background-color: #f8f8f8;
   padding: 1.5em;
   max-width: 768px;
   text-align: center;
@@ -146,39 +145,38 @@ header {
 
 /* FEATURED WORK SECTION STYLES */
 
-.featured_work {
-  text-align: center;
+.featuredWork {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 h2 {
-    position: relative;
-    text-align: center;
-    margin: 1%;
-    width: 100%;
-    max-width: 100%;
-    padding: 1em;
-    font-size: 1em;
-    font-family: "American Typewriter", sans-serif;
-    font-weight: 400;
-    font-size: 1.6em;
-    color: #6E6E6E;
+  position: relative;
+  text-align: center;
+  margin: 1%;
+  width: 100%;
+  max-width: 100%;
+  padding: 1em;
+  font-size: 1em;
+  font-family: "American Typewriter", sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #6e6e6e;
 }
 
-.section_title {
+.sectionTitle {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.project_card {
+.projectCard {
   text-align: center;
   margin-bottom: 30px;
   border: 1px solid;
-  border-color: #DCDCDC;
+  border-color: #dcdcdc;
   border-radius: 0.5em;
   max-width: 300px;
   margin: 0 0.75em 1.5em 0.75em;
@@ -193,31 +191,32 @@ h3 {
   width: 100%;
   font-size: 1.1em;
   font-family: "American Typewriter", sans-serif;
-  color: #A92B76;
+  color: #a92b76;
 }
 
-.project_tags {
+.projectTags {
   font-size: 0.8em;
   font-family: "American Typewriter", sans-serif;
-  color: #6E6E6E;
+  color: #6e6e6e;
   text-align: left;
   font-weight: 400;
   padding: 0.5em 0.5em;
   margin: 0;
 }
 
-.project_description {
+.projectDescription {
   font-size: 0.8em;
   text-align: left;
   padding: 0 0.5em 0.5em;
 }
 
-.project_icons {
+.projectIcons {
   width: 100%;
   text-align: right;
+  justify-content: flex-end;
 }
 
-.icon_project {
+.iconProject {
   max-width: 2.5em;
   max-height: 2.5em;
   margin: 0 0.5em 0 0.25em;
@@ -231,7 +230,7 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   text-align: center;
 }
 
@@ -242,7 +241,7 @@ footer {
   justify-content: center;
 }
 
-.icon_contact {
+.iconContact {
   max-width: 2.5em;
   max-height: 2.5em;
   margin: 0 0.25em 0;
@@ -257,26 +256,26 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 330px) {
+@media only screen and (max-width: 330px) {
   .logo {
     max-width: 5em;
     max-height: 5em;
   }
 }
 
-@media screen and (min-width: 451px) and (max-width: 650px) {
-  .project_card {
+@media only screen and (min-width: 451px) and (max-width: 670px) {
+  .projectCard {
     max-width: 450px;
   }
 }
 
-@media screen and (min-width: 1032px) {
-    body {
-        width: 1000px;
-        margin: 0 auto;
-    }
+@media only screen and (min-width: 1032px) {
+  body {
+    width: 1000px;
+    margin: 0 auto;
+  }
 
-    header {
-      padding: 1em 0 1em;
-    }
+  header {
+    padding: 1em 0 1em;
+  }
 }

@@ -2,6 +2,9 @@
 
 This is my very first online portfolio webite, which has been created as a project of Udacity's Front-End Nanodegree Programme.
 
+Live version here:
+[https://koszojudit.github.io/](https://koszojudit.github.io/)
+
 We were provided with a design mockup which we could customize and personalize, and make decisions in terms of the site's responsive behavior.
 
 ## What projects are included?

@@ -21,6 +21,7 @@ img {
   width: 100%;
   height: auto;
   margin: 0;
+  align-self: center
 }
 
 div {
@@ -152,12 +153,10 @@ header {
 }
 
 h2 {
-  position: relative;
   text-align: center;
-  margin: 1%;
   width: 100%;
   max-width: 100%;
-  padding: 1em;
+  padding: 0.5em;
   font-size: 1em;
   font-family: "American Typewriter", sans-serif;
   font-weight: 400;
